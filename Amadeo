@@ -1,0 +1,23 @@
+Apunte de como usar el Git hub:
+paso a paso, para subir un archivo(o otra cosa), a un repositorio de git hub.
+-----------------------------------------------------------------------------
+
+paso1:Logearse en la terminal (git config --global user.name (Nombre de usuario)
+(git config --global user.name (Tu gmail)
+
+paso2:En una carpeta que contenga el contenido que queres subir, tendras 
+que escribir en la terminar: git init (lo que hace es iniciar el repositorio)
+
+paso3:Para hacer el paso 3, primero tendran que fijarse si no hay un link(
+se pueden fijar con: git remote -v).
+en el caso que alla alguien; tendran que poner (git remote remove origin).
+para poner tu link tendran que poner (git remote add progon (link).
+_______________________________________________________________________________
+paso de verificacion:Tendran que poner: Git status, para ver si se puede subir 
+o no(Cuando esta rojo, no podes subirlo. Cuando esta verde, podras subirlo.
+Cuando sale gris o otro color; significa que ya esta subido).
+_______________________________________________________________________________
+
+paso 4:ahora tendran que guardarlo y subirlo (git add commit(nombre del archivo)
+Luego: git commit -m ("nombre descriptivo"). git brach -m main. Su funcion es 
+crear una rama.Luego: git push origin main.
